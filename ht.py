@@ -5,3 +5,5 @@ def test_hello():
     
 def test_Nhello():
     assert hello.hello_world_n(3) == "Hello World! Hello World! Hello World!"
+
+test_Nhello()
